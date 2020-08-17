@@ -1,11 +1,12 @@
+$(document).ready(function() {
 const icecream = ["chocolate", "vanilla", "rocky road", "marionberry"];
   icecream.forEach(function(flavor) {
     $("#icecreamlist").append("<li>" + flavor + "</li>");
   }); 
+});
 
 
 
-  
 //     let list = $("flavor#").val();
 //     $("." + flavor).text();
 //   });
